@@ -1,7 +1,6 @@
 # git autocomplete bash
-if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
-  . `brew --prefix`/etc/bash_completion.d/git-completion.bash
-fi
+source /usr/local/git/contrib/completion/git-completion.bash
+
 
 # Big History List
 # http://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows
